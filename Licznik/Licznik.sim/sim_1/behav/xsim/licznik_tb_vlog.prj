@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Licznik.srcs/sources_1/new/licznik.sv" \
+"../../../../Licznik.srcs/sim_1/new/licznik_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
