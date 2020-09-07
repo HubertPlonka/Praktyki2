@@ -70,11 +70,11 @@ set rc [catch {
   set_property board_part xilinx.com:sp701:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/hubel/Desktop/Praktyki/Licznik/Licznik.cache/wt [current_project]
-  set_property parent.project_path C:/Users/hubel/Desktop/Praktyki/Licznik/Licznik.xpr [current_project]
-  set_property ip_output_repo C:/Users/hubel/Desktop/Praktyki/Licznik/Licznik.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.cache/wt [current_project]
+  set_property parent.project_path C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.xpr [current_project]
+  set_property ip_output_repo C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/hubel/Desktop/Praktyki/Licznik/Licznik.runs/synth_1/licznik.dcp
+  add_files -quiet C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.runs/synth_1/licznik.dcp
   link_design -top licznik -part xc7s100fgga676-2
   close_msg_db -file init_design.pb
 } RESULT]

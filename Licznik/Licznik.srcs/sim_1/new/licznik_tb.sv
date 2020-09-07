@@ -6,7 +6,7 @@ module licznik_tb;
     reg RESET;
     reg UP;
     reg LOAD;
-    reg [2:0] load;
+    reg [2:0] loading;
     wire [2:0] outputs;
     
     
@@ -15,7 +15,7 @@ module licznik_tb;
                  .RESET (RESET),
                  .UP (UP),
                  .LOAD (LOAD),
-                 .load (load),
+                 .loading (load),
                  .outputs (outputs));
                  
     always #5 CLOCK = ~CLOCK;
@@ -24,19 +24,16 @@ module licznik_tb;
     // 1. Initialize testbench variables to 0 at start of simulation
     // 2. Drive rest of the stimulus, reset is asserted in between
     #20   START <= 1;
+    #15   RESET <= 1;
+    #10   RESET <= 0;
     #30   START <= 0;
-    #100   START <= 1;
-    #30   START <= 0;
-    #20   START <= 1;
-    #30   RESET <= 0;
-    #20   RESET <= 1;
-    #150   RESET <= 0;
-    #100   UP <= 1;
-    #100   UP <= 0;
-    #120   LOAD <= 0;
+    #20   LOAD <= 1;
+    #10   LOAD <= 0;
+    #25   UP <= 1;
+    #50   UP <= 0;
     #10   LOAD <= 1;
-    #70   LOAD <= 0;
-    #200   load <= 3'b010;
+    #10   LOAD <= 0;
+    
 
     // 3. Finish the stimulus after 200ns
     #200 $finish;

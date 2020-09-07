@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Sep  7 14:00:34 2020
+# Process ID: 15740
+# Current directory: C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.sim/sim_1/impl/func/xsim/xsim.dir/licznik_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.sim/sim_1/impl/func/xsim/xsim.dir/licznik_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Sep  7 14:00:34 2020...

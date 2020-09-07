@@ -6,7 +6,7 @@ module licznik(
     input RESET,
     input UP,
     input LOAD,
-    input [2:0] load,
+    input [2:0] loading,
     output reg [2:0] outputs
     );
 
@@ -25,7 +25,7 @@ begin
        end if (outputs==3'b0) begin
           outputs <= 3'b101;
        end else if (LOAD) begin
-          outputs <= load;
+          outputs <= loading;
        end
      end  
    end

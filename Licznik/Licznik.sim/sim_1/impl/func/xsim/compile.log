@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.sim/sim_1/impl/func/xsim/licznik_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module licznik
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.srcs/sim_1/new/licznik_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module licznik_tb
+INFO: [VRFC 10-2458] undeclared symbol load, assumed default net type wire [C:/Users/hubel/Desktop/Praktyki2/Licznik/Licznik.srcs/sim_1/new/licznik_tb.sv:18]

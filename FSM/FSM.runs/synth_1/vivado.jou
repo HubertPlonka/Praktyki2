@@ -2,11 +2,11 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Fri Sep  4 11:06:28 2020
-# Process ID: 9312
-# Current directory: C:/Users/hubel/Desktop/Praktyki/FSM/FSM.runs/synth_1
+# Start of session at: Mon Sep  7 14:07:45 2020
+# Process ID: 12352
+# Current directory: C:/Users/hubel/Desktop/Praktyki2/FSM/FSM.runs/synth_1
 # Command line: vivado.exe -log fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm.tcl
-# Log file: C:/Users/hubel/Desktop/Praktyki/FSM/FSM.runs/synth_1/fsm.vds
-# Journal file: C:/Users/hubel/Desktop/Praktyki/FSM/FSM.runs/synth_1\vivado.jou
+# Log file: C:/Users/hubel/Desktop/Praktyki2/FSM/FSM.runs/synth_1/fsm.vds
+# Journal file: C:/Users/hubel/Desktop/Praktyki2/FSM/FSM.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source fsm.tcl -notrace

@@ -16,12 +16,13 @@ licznik  ( .clk (clk),
                  
 always #5 clk = ~clk;
 always #10 x = ~x;
+always #30 rst = ~rst;
+always #40 en = ~en;
    
 initial begin
-#150   en <= 1;
-#10   en <= 0;
-#40   en <= 1;
-#120   rst <= 0;
-#20   rst <= 1;
-#60   rst <= 0;
+#300 $finish;
+end
+endmodule
+
+
 endmodule
