@@ -1,43 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7s100fgga676-2" LaunchTime="1599479870">
-  <File Type="BITSTR-BMM" Name="licznik_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="licznik_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="licznik_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR" Name="licznik_power_routed.rpt"/>
   <File Type="PA-TCL" Name="licznik.tcl"/>
-  <File Type="OPT-TIMING" Name="licznik_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="licznik_opt.dcp"/>
+  <File Type="BITSTR-BMM" Name="licznik_bd.bmm"/>
   <File Type="ROUTE-PWR-SUM" Name="licznik_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="licznik_reports.tcl"/>
+  <File Type="OPT-DCP" Name="licznik_opt.dcp"/>
   <File Type="OPT-DRC" Name="licznik_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="licznik.hwdef"/>
   <File Type="PWROPT-DCP" Name="licznik_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="licznik_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="licznik_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="licznik_placed.dcp"/>
   <File Type="PLACE-IO" Name="licznik_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="licznik_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="licznik_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="licznik_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="licznik_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="licznik_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="licznik_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="licznik_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="licznik_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="licznik.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="licznik_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="licznik_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="licznik_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="licznik.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="licznik_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="licznik_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="licznik_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="licznik_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="licznik_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="licznik_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="licznik_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="licznik.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="licznik_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="licznik.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="licznik_methodology_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="licznik_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="licznik_power_routed.rpx"/>
@@ -46,20 +35,13 @@
   <File Type="ROUTE-TIMINGSUMMARY" Name="licznik_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="licznik_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="licznik_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="licznik_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="licznik_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="licznik_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="licznik_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="licznik_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="licznik_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="licznik_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="licznik_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="licznik_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="licznik_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="licznik_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="licznik_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="licznik.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="licznik_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="licznik.rbt"/>
   <File Type="BITSTR-NKY" Name="licznik.nky"/>
   <File Type="PDI-FILE" Name="licznik.pdi"/>
@@ -68,7 +50,6 @@
   <File Type="RNPI_FILE" Name="licznik.rnpi"/>
   <File Type="NPI_FILE" Name="licznik.npi"/>
   <File Type="RBD_FILE" Name="licznik.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="licznik.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="licznik.sysdef"/>
   <File Type="BG-BGN" Name="licznik.bgn"/>
@@ -113,5 +94,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
