@@ -25,7 +25,4 @@ ipbus_module:  IPBUS_basex_infra port map(
     locked=>ipb_locked
 );
 
-fl_upg: FLASH generic map (clk_freq => 31250 )
-              port map (rst=>ipb_rst, clk  => ipb_clk, data_in =>ipb_data_out, data_out =>flash_data_out, A =>ipb_addr(1 downto 0), wr_flshreg =>ipb_iswr, rd_flshreg  =>ipb_isrd, flshreg_sel=>flshreg_sel, FSEL =>FSEL, FMOSI =>FMOSI, FMISO =>FMISO); 
 
-TX_CLK<=clksys40;
