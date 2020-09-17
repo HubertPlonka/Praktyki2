@@ -1,0 +1,28 @@
+-- IP-BUS module ===============================================
+
+
+ipbus_module:  IPBUS_basex_infra port map(
+    eth_clk_p => ethclk_p,
+    eth_clk_n => ethclk_n,
+    eth_tx_p => eth_tx_p,
+    eth_tx_n => eth_tx_n,
+    eth_rx_p => eth_rx_p,
+    eth_rx_n => eth_rx_n,
+    
+    clk_ipb_o => ipb_clk,
+    rst_ipb_o => ipb_rst,
+   
+    
+    RESET => ipb_stp,
+    
+    leds => ipb_leds, -- status LEDs
+    mac_addr => mac_addr,
+    
+    ip_addr => ip_addr,
+    ipb_in => ipb_in,
+    ipb_out => ipb_out,
+    clk200 =>clk200,
+    locked=>ipb_locked
+);
+
+
