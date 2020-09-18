@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Sep 18 13:30:27 2020
+# Process ID: 15524
+# Current directory: C:/Users/hubel/Desktop/Praktyk/IPBmodule
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4460 C:\Users\hubel\Desktop\Praktyk\IPBmodule\IPBmodule.xpr
+# Log file: C:/Users/hubel/Desktop/Praktyk/IPBmodule/vivado.log
+# Journal file: C:/Users/hubel/Desktop/Praktyk/IPBmodule\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hubel/Desktop/Praktyk/IPBmodule/IPBmodule.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/hubel/Desktop/Praktyki/IPBmodule' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/Users/hubel/Desktop/Praktyk/IPBmodule/IPBmodule.ip_user_files'; using path 'C:/Users/hubel/Desktop/Praktyki/IPBmodule/IPBmodule.ip_user_files' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 741.582 ; gain = 127.012

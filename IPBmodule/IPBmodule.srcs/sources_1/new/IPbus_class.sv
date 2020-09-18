@@ -1,8 +1,9 @@
 `timescale 1ns / 1ps
 
 
-module IPbus_class(
+interface IPbus_intf(
     input ipb_in,
     output ipb_out
     );
-endmodule
+endinterface: IPbus_intf;
+
