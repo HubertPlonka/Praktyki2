@@ -11,3 +11,5 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/hubel/Desktop/Praktyk/IPBmodule/IPBmodule.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
