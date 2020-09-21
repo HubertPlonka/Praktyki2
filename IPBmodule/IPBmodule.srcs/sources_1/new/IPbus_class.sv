@@ -21,11 +21,11 @@ class IPbus_test;
     local int x;
  
     
-    task setter(int i);
+    task set(int i);
         x = i;
     endtask
  
     
-    function int getter();
+    function int get();
         return x;
     endfunction
