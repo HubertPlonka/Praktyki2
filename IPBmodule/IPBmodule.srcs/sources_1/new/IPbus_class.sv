@@ -41,48 +41,4 @@ class IPbus_test;
         return x;
     endfunction
     
-     task read_file();
-    
-    int fd; 
-    int read_write;
-    int addr;
-    int value;
-    
-    fd = $fopen ("C:\Users\hubel\Desktop\Praktyk\plik.txt", "r");
-
-        while (!$feof(fd)) begin 
-            $fscanf(fd, "%d %d %d ", read_write, addr, value); 
-            if(read_write == 1) begin
-            $display ("Zapisanie w adresie %08d wartosci %0d ", addr, value);
-                 
-            
-            intf.ipbus.data = value;
-                 
-            end
-        end
-
-    $fclose(fd);
- 
-    endtask: read_file
-    
-    
-    
-    task write_file();
-    
-    int fd; 
-    int register_addr;
-    int value;
-    
-    
-    fd = $fopen ("C:\Users\hubel\Desktop\Praktyk\plik.txt", "w");
-        $fdisplay (fd, "TEST");
-        for (int i = 0; i < 10; i++) begin
-           $display ("IPbus data: %d", intf.ipb_in.ipb_rdata);
-           
-        end
-    $fclose(fd);
- 
-    endtask: write_file
-    
-    
-    endclass: IPbus_test
+     
