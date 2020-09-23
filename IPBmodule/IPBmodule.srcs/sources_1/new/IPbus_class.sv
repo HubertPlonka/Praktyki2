@@ -74,4 +74,25 @@ class IPbus_test;
     endtask: read
 
     
-    endclass: IPbus_test
+    endclass: IPbus_test   
+	
+	
+	
+	
+	module IPbus_test_module;
+
+	virtual IPb_intf intf_in_module; 
+
+
+  initial begin
+  
+   
+    IPbus_test xyz = new(intf_in_module); 
+    
+    xyz.set(8);
+    xyz.write();
+	xyz.read();
+    
+  end
+  
+endmodule: IPbus_testing_module
