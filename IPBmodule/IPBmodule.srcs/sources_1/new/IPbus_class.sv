@@ -41,4 +41,37 @@ class IPbus_test;
         return x;
     endfunction
     
-     
+    
+    task write();
+    
+    int fd; 
+    int value;
+    
+    fd = $fopen ("C:\Users\hubel\Desktop\Praktyk\plik.txt", "w");
+    
+    while (!$feof(ipb_out.ipb_wdata)) begin
+            $display("Zapisane wartosci: %0d", ipb_out.ipb_wdata );
+    end
+    $fclose(fd);
+    endtask: write
+    
+    
+    task read();
+    
+    int fd; 
+    int value;
+    
+    fd = $fopen ("C:\Users\hubel\Desktop\Praktyk\plik.txt", "r");
+
+        while (!$feof(fd)) begin 
+            $fgets(value, fd);
+            $display ("Odczytano wartosc %0d ", value);
+                 
+                 
+            end
+    $fclose(fd);
+ 
+    endtask: read
+
+    
+    endclass: IPbus_test
