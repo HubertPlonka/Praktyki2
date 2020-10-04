@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Oct 01 16:01:41 2020
+# Process ID: 4540
+# Current directory: C:/Users/hubel/Desktop/project_11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9792 C:\Users\hubel\Desktop\project_11\project_11.xpr
+# Log file: C:/Users/hubel/Desktop/project_11/vivado.log
+# Journal file: C:/Users/hubel/Desktop/project_11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 01 16:02:09 2020...
